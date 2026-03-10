@@ -5,9 +5,11 @@
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfCases/IfCases.csproj" Id="b76d2140-2b9b-4695-b7db-f7d9077bd699" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
+  <Project Path="MethodsApp/MethodsApp.csproj" Id="e9141b0e-0cfa-4513-8c00-731db4867307" />
   <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
+  <Project Path="SwapApp/SwapApp.csproj" Id="1ce3c0d1-02b6-4766-b055-9850b8b6093b" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="ea0f57df-aa52-4480-869a-c84a567538b6" />
   <Project Path="Traveling/Traveling.csproj" Id="b13e9573-e667-4a65-8675-0dbcbc924a89" />
   <Project Path="WhileApp/WhileApp.csproj" Id="7cb7d326-3344-4a75-8b9b-9c340375fe1d" />
