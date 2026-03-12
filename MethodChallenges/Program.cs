@@ -143,8 +143,34 @@ namespace MethodChallenges
             return -1;
 
 
+        }
 
 
+        // checks if two strings are anagrams
+        
+        public static bool IsAnagrams(string str1, string str2)
+        {
+            if (str1.Length != str2.Length) return false;
 
+            char[] chars1 = str1.ToUpper().ToCharArray();
+            char[] chars2 = str2.ToUpper().ToCharArray();
+
+            Array.Sort(chars1);
+            Array.Sort(chars2);
+
+            return new string(chars1) == new string(chars2);
+        }
+
+
+        // calculate the common elements between two arrays
+
+        public static int[] GetCommonElements(int[] arr1, int[] arr2)
+        {
+            HashSet<int> set1 = [.. arr1];
+            HashSet<int> set2 = [.. arr2];
+
+            set1.IntersectWith(set2);
+            return [.. set1];
+        }
     }
 }
