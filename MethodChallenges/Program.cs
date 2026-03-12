@@ -76,5 +76,49 @@ namespace MethodChallenges
             return sb.ToString();
         }
 
+
+        // method that creates a random pin of 4 digits
+
+
+        public static string GeneratePin()
+        {
+            Random rand = new();
+            return rand.Next(1000, 10000).ToString();
+
+        }
+
+
+        // filtering even numbers from an array
+
+        public static int[] FilterEvenNumbers(int[] array)
+        {
+            //return array.Where(num => num % 2 == 0).ToArray();
+            return [ .. array.Where(num => num % 2 == 0)];
+        }
+
+
+        // bubble sort
+
+        public static void BubbleSort(int[] arr)
+        {
+            int n = arr.Length;
+
+            for (int i = n - 1; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        // swap arr[j] and arr[j+1]
+                        (arr[j + 1], arr[j]) = (arr[j], arr[j + 1]);   // tuple swap
+                    }
+                }
+            }
+
+        }
+
+
+
+
     }
 }
