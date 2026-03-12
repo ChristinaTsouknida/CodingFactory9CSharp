@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PocoApp
+{
+    /// <summary>
+    /// auto implemented properties
+    /// CLR creates private backing fields automatically
+    /// </summary>
+    internal class Course
+    {
+        public int Id { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+
+        public override string ToString() =>        
+           $"Course: Id={Id}, Title={Title}, Description={Description}";
+       
+
+        public override bool Equals(object? obj)
+        {
+            return obj is Course course &&
+                   Id == course.Id &&
+                   Title == course.Title &&
+                   Description == course.Description;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id, Title, Description);
+        }
+    }
+}
