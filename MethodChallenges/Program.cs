@@ -118,6 +118,32 @@ namespace MethodChallenges
         }
 
 
+        //binary search
+
+        public static int BinarySearch(int[] arr, int val)
+        {
+            int left = 0;
+            int right = arr.Length - 1;
+
+            while (left <= right)
+            {
+                int middle = (left + right) / 2;
+
+                if (arr[middle] == val) return middle;
+
+                if (arr[middle] < val)
+                {
+                    left = middle + 1;
+                }
+                else
+                {
+                    right = middle - 1;
+                }
+            }
+            return -1;
+
+
+
 
 
     }
