@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AccountApp/AccountApp.csproj" Id="ea368837-9f82-40ec-99cf-4d721544a834" />
   <Project Path="ArgsDemo/ArgsDemo.csproj" Id="45ad7237-aeed-4d28-a888-25786ed8b512" />
   <Project Path="ArrayApp/ArrayApp.csproj" Id="ac4b2cf4-2c42-43ee-b25d-f635afeed221" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="7d53ced6-bab0-43a6-b4a4-68d14e49dd3b" />
@@ -16,6 +17,7 @@
   <Project Path="NullableApp/NullableApp.csproj" Id="c95c6bbf-ceb1-42a2-a96a-19229474326f" />
   <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="PalindromeStr/PalindromeStr.csproj" Id="843bea0e-830c-4e4b-9c46-413b4dbaa6da" />
+  <Project Path="PocoApp/PocoApp.csproj" Id="c1be817b-beb7-4d44-9a2d-60fd07cc2cfa" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
   <Project Path="RegExApp/RegExApp.csproj" Id="81e7e3fd-b6cf-4fca-9371-26467a6d0881" />
@@ -24,5 +26,6 @@
   <Project Path="SwapApp/SwapApp.csproj" Id="1ce3c0d1-02b6-4766-b055-9850b8b6093b" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="ea0f57df-aa52-4480-869a-c84a567538b6" />
   <Project Path="Traveling/Traveling.csproj" Id="b13e9573-e667-4a65-8675-0dbcbc924a89" />
+  <Project Path="UtilityApp/UtilityApp.csproj" Id="01bf2a58-cd6f-4672-b239-021041d7d247" />
   <Project Path="WhileApp/WhileApp.csproj" Id="7cb7d326-3344-4a75-8b9b-9c340375fe1d" />
 </Solution>
