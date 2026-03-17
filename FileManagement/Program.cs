@@ -12,6 +12,7 @@
             char ch;
             int totalChars = 0;
 
+
            try
             {
                 if (!File.Exists(filePath))
