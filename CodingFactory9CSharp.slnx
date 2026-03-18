@@ -36,5 +36,6 @@
   <Project Path="SwitchApp/SwitchApp.csproj" Id="ea0f57df-aa52-4480-869a-c84a567538b6" />
   <Project Path="Traveling/Traveling.csproj" Id="b13e9573-e667-4a65-8675-0dbcbc924a89" />
   <Project Path="UtilityApp/UtilityApp.csproj" Id="01bf2a58-cd6f-4672-b239-021041d7d247" />
+  <Project Path="WebAppStarter9/WebAppStarter9.csproj" Id="f3a59aaa-af0a-428a-807a-c117b572a26a" />
   <Project Path="WhileApp/WhileApp.csproj" Id="7cb7d326-3344-4a75-8b9b-9c340375fe1d" />
 </Solution>
